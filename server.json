@@ -1,0 +1,166 @@
+{
+  "restaurants": [
+    {
+      "id": 0,
+      "logo": "https://d701vexhkz032.cloudfront.net/bundles/front/media/images/favicons/favicon-512.png",
+      "text": "McDonald's - Brasil",
+      "evaluate": 4.2,
+      "category": "Lanches",
+      "distance": 7.3,
+      "minutes": "60-70",
+      "tax": 7.00
+    },
+    {
+      "id": 1,
+      "logo": "https://logodownload.org/wp-content/uploads/2015/02/Burger-king-logo-5.png",
+      "text": "Burger King",
+      "evaluate": 4.5,
+      "category": "Lanches",
+      "distance": 9,
+      "minutes": "70-80",
+      "tax": 8.00
+    },
+    {
+      "id": 2,
+      "logo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/201911221627_3b796d61-2640-47e9-bd48-7f1973a51374.jpg",
+      "text": "Yoshi Restaurante Japonês",
+      "evaluate": 4.5,
+      "category": "Japonesa",
+      "distance": 0.8,
+      "minutes": "20-30",
+      "tax": 3.00
+    },
+    {
+      "id": 3,
+      "logo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/cfa08fd6-f079-4ef5-a49f-4d2e8afe3f79/201911261354_GGc5_i.jpg",
+      "text": "Habib's - Sumaré",
+      "evaluate": 3.6,
+      "category": "Árabe",
+      "distance": 7.8,
+      "minutes": "60-70",
+      "tax": 0
+    },
+    {
+      "id": 4,
+      "logo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/e98a46a4-4252-4e08-9047-774d704d4ef9/201801200929_logo.jpg",
+      "text": "Kidogão",
+      "evaluate": 3.9,
+      "category": "Pizza",
+      "distance": 3.6,
+      "minutes": "40-50",
+      "tax": 0
+    },
+    {
+      "id": 5,
+      "logo": "https://static-images.ifood.com.br/image/upload/f_auto,t_thumbnail/logosgde/201708280759_0132e3a6-87e8-4a83-87a3-d439a148fa16.png",
+      "text": "Monstrão do Açai",
+      "evaluate": 4.6,
+      "category": "Sorvetes",
+      "distance": 1.2,
+      "minutes": "60-70",
+      "tax": 2.00
+    }
+  ],
+  "lastRestaurants": [
+    {
+      "id": 0,
+      "logo": "https://logodownload.org/wp-content/uploads/2015/02/Burger-king-logo-5.png",
+      "title": "Burger King",
+      "isOpen": true
+    },
+    {
+      "id": 1,
+      "logo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/cfa08fd6-f079-4ef5-a49f-4d2e8afe3f79/201911261354_GGc5_i.jpg",
+      "title": "Habib's - Sumaré",
+      "isOpen": false
+    },
+    {
+      "id": 2,
+      "logo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/e98a46a4-4252-4e08-9047-774d704d4ef9/201801200929_logo.jpg",
+      "title": "Kidogão",
+      "isOpen": true
+    }
+  ],
+  "posters": [
+    {
+      "id": 0,
+      "uri": "https://www.ifood.com.br/static/images/landing/ifood-capas-entregagratis-3.jpg"
+    },
+    {
+      "id": 1,
+      "uri": "https://www.ifood.com.br/static/images/landing/ifood-capas-metadeclique.jpg"
+    },
+    {
+      "id": 2,
+      "uri": "https://www.ifood.com.br/static/images/landing/ifood-capas-famosos.jpg"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "date": "Seg 26 agosto 2019",
+      "logo": "https://static-images.ifood.com.br/image/upload/f_auto,t_high/logosgde/cfa08fd6-f079-4ef5-a49f-4d2e8afe3f79/201911261354_GGc5_i.jpg",
+      "title": "Habib's - Sumaré",
+      "status": "Pedido entregue",
+      "code": 7005,
+      "description": "Combo mega picanha bacon: hambúrguer + fritas + bebida 300ml",
+      "evaluation": 4
+    }
+  ],
+  "recentes": [
+    {
+      "id": 0,
+      "title": "Sorvete"
+    },
+    {
+      "id": 1,
+      "title": "Pizza"
+    },
+    {
+      "id": 2,
+      "title": "Lanche"
+    }
+  ],
+  "BestSellers": [
+    {
+      "id": 0,
+      "logo": "https://s2.glbimg.com/ZBsYqDj_hRSeBwLhppilEg3JwfM=/696x390/smart/filters:cover():strip_icc()/s.glbimg.com/po/rc/media/2012/06/13/14/31/15/151/2607201005261284043239.jpg",
+      "name": "Pizza de Frango (12 pedaços)",
+      "description": "Frango desfiado coberto com catupiry.",
+      "restaurantName": "Pizzaria Oliveira",
+      "restaurantTime": "20-30",
+      "price": 27.00,
+      "oldPrice": 35.00
+    },
+    {
+      "id": 1,
+      "logo": "http://www.ocladapizza.com.br/wp-content/uploads/2016/12/3-fatos-sobre-a-pizza-portuguesa-que-voce-nao-fazia-ideia-artigo-blog-pizzaria-o-cla-da-pizza-640x420.jpg",
+      "name": "Pizza Portuguesa (8 pedaços)",
+      "description": "Molho, mussarela, presunto, calabressa, ovos, cebola pimentão, azeitona e orégano",
+      "restaurantName": "Pizzaria Oliveira",
+      "restaurantTime": "20-30",
+      "price": 27.00,
+      "oldPrice": 35.00
+    },
+    {
+      "id": 2,
+      "logo": "https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0R0f00000wN9jeEAC/5c364ae7e4b04b23f51cad7b.jpg&w=710&h=462",
+      "name": "X-Salada",
+      "description": "Pão bola, 2 carnes, 2 ovos, 2 queijos, 2 presuntos, alface e tomate",
+      "restaurantName": "Rei do X-Salada",
+      "restaurantTime": "0-10",
+      "price": 15.00,
+      "oldPrice": 25.00
+    },
+    {
+      "id": 3,
+      "logo": "https://img.stpu.com.br/?img=https://s3.amazonaws.com/pu-mgr/default/a0R6f00001FpEwrEAF/5de52108e4b0256c1ba06a31.jpg&w=710&h=462",
+      "name": "X-Bacon",
+      "description": "Pão bola, carne,ovo, queijo, presunto, alface e tomate.",
+      "restaurantName": "Rei do X-Salada",
+      "restaurantTime": "0-10",
+      "price": 10.00,
+      "oldPrice": 20.00
+    }
+  ]
+}

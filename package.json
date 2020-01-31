@@ -1,0 +1,61 @@
+{
+  "name": "ifood",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.6",
+    "axios": "^0.19.2",
+    "date-fns": "^2.0.0-beta.5",
+    "intl": "^1.2.5",
+    "json-server": "^0.15.1",
+    "prop-types": "^15.7.2",
+    "react": "16.9.0",
+    "react-icons": "^3.8.0",
+    "react-native": "0.61.5",
+    "react-native-cardview": "^2.0.5",
+    "react-native-dynamic-vector-icons": "^0.2.1",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "^0.6.2",
+    "react-native-scrollable-tab-view-forked": "^1.0.9",
+    "react-native-shadow": "^1.2.2",
+    "react-native-star-review": "^0.0.3",
+    "react-native-svg": "^11.0.1",
+    "react-native-tab-view": "^2.11.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^2.0.15",
+    "react-navigation-tabs": "^2.7.0",
+    "react-number-format": "^4.3.1",
+    "reactotron-react-native": "^4.0.3",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/runtime": "^7.8.3",
+    "@react-native-community/eslint-config": "^0.0.6",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-root-import": "^6.4.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-native": "^3.8.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.4",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
