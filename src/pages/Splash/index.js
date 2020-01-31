@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import { Animated } from 'react-native';
+import { Animated, StatusBar } from 'react-native';
 import logo from '~/assets/logo.png';
+import colors from '~/utils/colors';
 import {
   Container,
   Logo,
@@ -35,6 +36,7 @@ export default function Splash({ navigation }) {
   }, [logoScale, textY]);
   return (
     <Container>
+      <StatusBar barStyle="light-content" backgroundColor={colors.red} />
       <Logo source={logo} style={{
         transform: [
           {
