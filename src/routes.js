@@ -1,12 +1,14 @@
 import React from 'react';
 import { TouchableOpacity } from 'react-native';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import createAnimatedSwitchNavigator from 'react-navigation-animated-switch';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { createStackNavigator } from 'react-navigation-stack';
+import { Transition } from 'react-native-reanimated';
 import {
   createBottomTabNavigator,
   createMaterialTopTabNavigator
 } from 'react-navigation-tabs';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-import { createStackNavigator } from 'react-navigation-stack';
 
 import Splash from '~/pages/Splash';
 import Dashboard from '~/pages/Dashboard';
@@ -92,7 +94,7 @@ Main.navigationOptions = ({ navigation }) => {
 };
 
 const Routes = createAppContainer(
-  createSwitchNavigator({
+  createAnimatedSwitchNavigator({
     Splash: createSwitchNavigator({
       Splash
     }),
@@ -188,7 +190,19 @@ const Routes = createAppContainer(
           inactiveTintCOlor: 'rgba(255, 255, 255, 0.6)'
         }
       })
-  })
+  },
+    {
+      transition: (
+        <Transition.Together>
+          <Transition.Out
+            type="slide-left"
+            durationMs={150}
+            interpolation="easeIn"
+          />
+          <Transition.In type="fade" durationMs={500} />
+        </Transition.Together>
+      ),
+    })
 );
 
 export default Routes;

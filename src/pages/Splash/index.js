@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Animated, StatusBar } from 'react-native';
-import logo from '~/assets/logo.png';
+import logo from '~/assets/logo_white.png';
 import colors from '~/utils/colors';
 import {
   Container,
