@@ -31,7 +31,7 @@ export default function Dashboard({ navigation }) {
             outputRange: [0, -60],
             extrapolate: 'clamp'
           }),
-          borderWidth: scrollOffset.interpolate({
+          borderBottomWidth: scrollOffset.interpolate({
             inputRange: [0, 140],
             outputRange: [0, 1],
             extrapolate: 'clamp'

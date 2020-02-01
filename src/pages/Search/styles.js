@@ -8,7 +8,9 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   padding: 10px 20px 10px 20px;
-  border: 1px solid ${colors.white_smoke};
+  border-bottom-width: 1px;
+  border-bottom-color: ${colors.white_smoke};
+  background: ${colors.white};
 `;
 
 export const InputField = styled.View`
@@ -36,6 +38,7 @@ export const Body = styled.ScrollView.attrs({
   showsVerticalScrollIndicator: false,
 })`
    padding: 10px 20px 10px 20px;
+   background: ${colors.white};
 `;
 
 export const SearchContent = styled.View`
