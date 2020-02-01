@@ -69,7 +69,7 @@ Para subir o servidor, digite o seguinte comando: **(Lembre-se de substituir {ip
 json-server --host {ip da sua maquina} -p 3333 -w
 ```
 
-No arquivo api.js em src/services/api.js, substituir o número do IP do atributo baseURL para o IP da sua máquina **(alterar apenas o IP)**.
+No arquivo ReactotronConfig.js em src/config/ReactotronConfig.js, substituir o número do IP do atributo host para o IP da sua máquina **(alterar apenas o IP)**.
 
 Após esse procedimento caso esteja usando um dispositivo físico, conecte o seu dispositivo via USB com o modo de desenvolvedor do dispositivo ativada.
 
