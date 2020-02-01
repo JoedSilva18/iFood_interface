@@ -17,9 +17,9 @@ O  aplicativo tem como objetivo criar uma interface semelhante ao iFood aplicand
 
 ### Tecnologias/Ferramentas utilizadas:
 - [React Native](https://facebook.github.io/react-native/)
-- [React Navigation](http://https://reactnavigation.org/)
+- [React Navigation](http://reactnavigation.org/)
 - [VS Code](https://code.visualstudio.com/)
-- [Axios](http://https://github.com/axios/axios)
+- [Axios](http://github.com/axios/axios)
 - [Styled Components](https://styled-components.com/)
 - [Json Server](https://github.com/typicode/json-server)
 - [Prettier](https://prettier.io/)
@@ -28,7 +28,7 @@ O  aplicativo tem como objetivo criar uma interface semelhante ao iFood aplicand
 ### Imagens do projeto:
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="https://i.imgur.com/Ppmhp7V.png" height="500" width="300"> | <img src="https://i.imgur.com/nV3sWQw.png" height="500" width="300"> | <img src="https://i.imgur.com/17lc25u.png" height="500" width="300">
+<img src="https://i.imgur.com/Ppmhp7V.png" height="500" width="300"> | <img src="https://i.imgur.com/nV3sWQw.png" height="500" width="300"> | <img src="https://i.imgur.com/Jp0W11p.png" height="500" width="300">
 <img src="https://i.imgur.com/dBt0XUT.png" height="500" width="300"> | <img src="https://i.imgur.com/RplPO2P.png" height="500" width="300"> | <img src="https://i.imgur.com/zIlP8n2.png" height="500" width="300">
 <img src="https://i.imgur.com/t0O3lO4.png" height="500" width="300"> | <img src="https://i.imgur.com/29giwh5.png" height="500" width="300"> | <img src="https://i.imgur.com/sX6ZzB6.png" height="500" width="300">
 
